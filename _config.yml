@@ -10,7 +10,7 @@ url: https://www.postcapitalgames.com
 
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
 discus_identifier: chalk-1 # Add your Disqus identifier
-ga_analytics: UA-28631876-6 # Add your GA Tracking Id
+ga_analytics: # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
@@ -29,7 +29,7 @@ social:
   gitlab: # Add your GitLab handle
   youtube: # Add your Youtube handle
   twitch: # Add your Twitch handle
-  discord: discord.gg/invite/taZkVkvYpk # Add you Discord server invitation ID
+  discord: taZkVkvYpk # Add you Discord server invitation ID
   tumblr: # Add your Tumblr handle
   bitbucket: # Add your Bitbucket handle
   docker: # Add your Docker Hub handle
