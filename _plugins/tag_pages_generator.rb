@@ -4,7 +4,7 @@ module Chalk
     slug.to_s.split(/[-_]/).map { |w| w.empty? ? w : w[0].upcase + w[1..-1] }.join(' ')
   end
 
-  class TitleizeTagFilter
+  module TitleizeTagFilter
     def titleize_tag(slug)
       Chalk.titleize(slug)
     end
