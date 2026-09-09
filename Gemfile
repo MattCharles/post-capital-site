@@ -5,7 +5,7 @@ gem "html-proofer"
 gem "image_optim"
 gem "jekyll", '3.8.6'
 gem "jekyll-assets"
-gem "jekyll-paginate"
+gem "jekyll-paginate-v2"
 gem "jekyll-sitemap"
 gem "jemoji"
 gem "json", "< 2.7"

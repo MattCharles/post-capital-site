@@ -2,7 +2,6 @@
 
 blog_theme: dark # Or use light
 name: Post-Capital Games
-paginate: 25
 url: https://www.postcapitalgames.com
 
 
@@ -65,8 +64,14 @@ exclude:
   - yarn.lock
 plugins:
   - jekyll-assets
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jemoji
-paginate_path: /posts/page/:num/
 permalink: posts/:slug
+
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
