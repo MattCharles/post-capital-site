@@ -1,7 +1,7 @@
 # Mandatory settings
 
 blog_theme: dark # Or use light
-name: Chalk
+name: Post-Capital Games
 paginate: 25
 url: https://www.postcapitalgames.com
 
